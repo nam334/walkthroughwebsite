@@ -1,38 +1,28 @@
-.App {
-  text-align: center;
+body {
+  font-family: "Poppins";
+}
+.css-ny69v2 {
+  margin: 0px;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.334em;
+  font-family: Roboto, sans-serif;
+  color: inherit;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.css-zxtyt4-MuiPaper-root-MuiAppBar-root {
+  background-color: transparent !important;
+  box-shadow: none !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.inputRounded .MuiOutlinedInput-root {
+  border-radius: 50px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.css-d9ml5t-MuiDrawer-docked .MuiDrawer-paper {
+  box-sizing: border-box;
+  width: 240px;
+  border: none !important;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.css-1q6at85-MuiInputBase-root-MuiOutlinedInput-root {
+  border-radius: 15px !important;
 }
